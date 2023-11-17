@@ -1,4 +1,4 @@
-package friend;
+
 
 import java.util.Scanner;
 
