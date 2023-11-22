@@ -30,9 +30,17 @@ public class Magic {
         int num=n;int total=0;
         while(num>0){
             int rem=num%10;
-            total=total+rem;
+            total=add(total,rem);
             num=num/10;
         }
         System.out.println(total);
+        while(total>0){
+
+        }
+    }
+    public static int add(int t,int r){
+        int total=t+r;
+        return total;
+
     }
 }
