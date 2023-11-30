@@ -6,7 +6,7 @@
  * 111221
  */
 
-public class LookAndSay {
+public class LookAndSay44 {
     public static void main(String[] args) {
         int n=5;
         lookAndSay(n);
